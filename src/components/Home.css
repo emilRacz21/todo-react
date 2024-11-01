@@ -1,0 +1,42 @@
+/* Styles for Home component */
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  width: 8rem;
+  height: 8rem;
+}
+
+.home-section h2 {
+  color: #65abe8;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 1rem 0rem;
+}
+
+.home-section p {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #478fcf;
+  margin: 0;
+}
+
+.home-section button {
+  margin: 2rem 0rem;
+  padding: 1rem 2rem;
+  background-color: #0ea5e9;
+  color: #f1f5f9;
+  font-family: "CustomFont", sans-serif;
+  border-radius: 0.75rem;
+  transition: 0.3s ease;
+}
+
+.home-section button:hover {
+  background-color: #0f8ec8;
+}

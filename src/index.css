@@ -1,0 +1,23 @@
+body,
+html {
+  font-family: "Rowdies", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(224, 228, 231);
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+button {
+  border: none;
+}
+.app-main {
+  height: 100vh;
+  display: flex;
+  gap: 16rem;
+  padding-right: 16rem;
+}
